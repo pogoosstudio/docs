@@ -1,16 +1,16 @@
 ---
-title: Home
-description: Welcome to Top.gg
+title: Inicio
+description: Bienvenido a Pogo AI
 ---
 
-Hi developer 🥰, welcome to top.gg developer docs. You are currently viewing **v0** of our API documentation. We're going to be working on the next version of the top.gg API (v1) soon, stay tuned!
+Hola desarrollador 🥰, bienvenido a los documentos para desarrolladores de Pogo AI. Actualmente estás viendo la **v1** de nuestra documentación API. Pronto estaremos trabajando en la próxima versión de la API Pogo AI (v2), ¡estad atentos!
 
-## Getting Started
+## Empezando
 
-If you're looking for API usage, [click here](/docs/API/@reference/) or go to the `API` section on the sidebar.
+Si está buscando el uso de API, [haga clic aquí](/docs/API/@reference/) o vaya a la sección `API` en la barra lateral.
 
-## Getting Help
+## Obtener ayuda
 
-If you need some help or think you have spotted a problem with our API you can talk to us in our [`#topgg-api`](https://discord.com/channels/264445053596991498/412006692125933568) channel in our [discord server](https://discord.gg/EYHTgJX).
+Si necesita ayuda o cree que ha detectado un problema con nuestra API, puede hablar con nosotros en nuestro canal [`#topgg-api`](https://discord.com/channels/1056722603752030228/1312483701514305607) en nuestro [discord servidor](https://discord.gg/Xp3ySTA6).
 
-You can ask questions about our community-maintained API Libraries or general queries about the API in the server.
+Puede hacer preguntas sobre nuestras bibliotecas API mantenidas por la comunidad o consultas generales sobre la API en el servidor.
