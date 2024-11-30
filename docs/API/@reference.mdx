@@ -1,24 +1,52 @@
 ---
 # files that should be pinned to the top like reference
 # are prefixed with a @ symbol
-title: 🌟 Getting Started
-description: Basics of the API
+title: 🌟 Empezando
+description: Conceptos básicos de la API
 ---
 
-Our API is HTTPS/REST for general operations such as sending `POST` requests and receiving `GET` requests.
+Nuestra API es HTTPS/REST para operaciones generales como enviar solicitudes 'POST'.
 
-#### Base Url
+#### URL base
 
-[https://top.gg/api](https://top.gg/api)
+[https://fred.hidencloud.com:25736/v1](https://fred.hidencloud.com:25736/v1) (Esta url cambiará en el futuro)
 
-## Authentication
+## Método HTTP
 
-To access our API you need to authorize yourself, this can be done by using your discord bot list token. Your token can be obtained from your bot page settings under **Webhooks** (https://top.gg/bot/:yourbotid/webhooks replacing `:yourbotid` with the ID of your bot).
+• POST: Utiliza este método para enviar un mensaje y recibir una respuesta.
 
-Authentication is performed with the `Authorization` HTTP header as such
+▎Cuerpo de la Solicitud
 
 ```json:title=HTTP%20Headers
 {
-  "Authorization": "your-topgg-token-here"
+  "prompt": "Tu mensaje aquí"
+}
+```
+
+• prompt: (string) El mensaje que deseas enviar a la IA.
+
+▎Respuesta
+
+La respuesta de la API será un objeto JSON que contiene:
+
+```json:title=HTTP%20Headers
+{
+  "response": "Respuesta generada por la IA"
+}
+```
+
+• response: (string) La respuesta generada por el modelo de IA.
+
+▎Ejemplo de Solicitud
+
+```
+curl -X POST http://localhost:25736/v1 -H "Content-Type: application/json" -d '{"prompt": "¿Cómo estás?"}'
+```
+
+▎Ejemplo de Respuesta
+
+```json:title=HTTP%20Headers
+{
+  "response": "¡Estoy bien, gracias! ¿Y tú?"
 }
 ```
