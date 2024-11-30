@@ -8,19 +8,19 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Top.gg Documentation',
-  tagline: 'Spice up your Discord experience with our diverse range of Discord Bots!',
-  favicon: 'img/favicon.ico',
+  title: 'Pogo Ai Documentación',
+  tagline: 'Documentación completa de la API de Pogo AI.  Encuentra todo lo que necesitas para integrar Pogo AI en tus aplicaciones y empezar a utilizar nuestras potentes funcionalidades de inteligencia artificial.',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
-  url: 'https://docs.top.gg',
+  url: 'https://pogoai.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'top-gg', // Usually your GitHub org/user name.
+  organizationName: 'pogoosstudio', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/top-gg/docs/tree/main/docs/',
+            'https://github.com/pogoosstudio/docs/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,12 +66,12 @@ const config = {
         defaultMode: "dark"
       },
       // Replace with your project's social card
-      image: 'logo.svg',
+      image: 'icon.png',
       navbar: {
-        title: 'Top.gg',
+        title: 'Pogo AI',
         logo: {
-          alt: 'Top.gg Logo',
-          src: 'logo.svg',
+          alt: 'Pogo AI Logo',
+          src: 'icon.png',
         },
         items: [
           {
@@ -81,8 +81,8 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/top-gg-community',
-            label: 'Community GitHub',
+            href: 'https://discord.gg/',
+            label: 'Discord',
             position: 'right',
           },
         ],
